@@ -5,7 +5,7 @@ use ::{
         fs2::FileExt,
         std::{
             fs::File,
-            io::prelude::*,
+            io::{self, SeekFrom, prelude::*},
             ops::{Deref, DerefMut},
         },
 };
