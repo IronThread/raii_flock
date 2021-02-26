@@ -5,7 +5,7 @@ authors = ["IronThread <santinofuenteskillian@gmail.com>"]
 edition = "2018"
 license = "Unlicense"
 readme = "README.md"
-description = "Little library implementing a wrapper over a file that's locked on creation and unclocked when it goes out of scope."
+description = "Little library implementing a wrapper over a file that's locked on creation and unlocked when it goes out of scope."
 repository = "https://github.com/IronThread/raii_flock"
 keywords = ["file","raii","guard","lock","flock"]
 
